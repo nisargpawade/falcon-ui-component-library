@@ -111,6 +111,10 @@ nav {
   /* background-color: cornflowerblue; */
 }
 
+.display-container{
+  padding: 1rem 10rem;
+}
+
 .landing-pg-main {
   padding: 2rem;
   display: flex;
