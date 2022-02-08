@@ -2,14 +2,23 @@
 
 h1{
     font-size: 3.2rem;
+    margin: 10px 0 4px 0;
 }
 
 h2{
     font-size: 2.5rem;
+    margin: 6px 0;
 }
 
 p {
     font-size: 1.75rem;
+    margin: 4px 0;
+}
+
+code {
+  font-size: 1.5rem;
+  width: 80rem;
+  margin-bottom: 2rem;
 }
 
 nav {
@@ -22,7 +31,7 @@ nav {
   justify-content: space-between;
   background-color: var(--primary-color);
   font-size: 2.2rem;
-  padding: 2rem;
+  padding: 2rem 3rem;
   font-weight: 500;
 }
 
@@ -60,6 +69,7 @@ nav {
 .side-bar {
     z-index: 2;
     margin-top: 6rem;
+    margin-left: 2rem;
     position: fixed;
   flex-basis: 23rem;
 }
@@ -95,7 +105,7 @@ nav {
 
 .main-content-container {
     margin-top: 6rem;
-    margin-left: 25rem;
+    margin-left: 30rem;
   flex-grow: 1;
   padding: 2rem 1rem;
   /* background-color: cornflowerblue; */

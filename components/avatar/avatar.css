@@ -1,4 +1,45 @@
 
 .display-container{
-    background-color: coral;
+    /* background-color: coral; */
+    padding: 1rem 10rem;
+}
+
+.avatar-l{
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.avatar-m{
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.avatar {
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.avatar-s{
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.avatar-sq-l{
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.avatar-sq-m{
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+.avatar-sq {
+    width: 6rem;
+    border-radius: 1rem;
+}
+
+.avatar-sq-s{
+    width: 4rem;
+    border-radius: 1rem;
 }
