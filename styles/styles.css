@@ -1,25 +1,6 @@
 /* -----navbar----- */
 
-h1{
-    font-size: 3.2rem;
-    margin: 10px 0 4px 0;
-}
 
-h2{
-    font-size: 2.5rem;
-    margin: 6px 0;
-}
-
-p {
-    font-size: 1.75rem;
-    margin: 4px 0;
-}
-
-code {
-  font-size: 1.5rem;
-  width: 80rem;
-  margin-bottom: 2rem;
-}
 
 nav {
     z-index: 2;
@@ -113,6 +94,12 @@ nav {
 
 .display-container{
   padding: 1rem 10rem;
+}
+
+.display-code {
+  font-size: 1.5rem;
+  width: 80rem;
+  margin-bottom: 2rem;
 }
 
 .landing-pg-main {
