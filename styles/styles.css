@@ -85,6 +85,7 @@ nav {
 /* -----sidebar ends here----- */
 
 .main-content-container {
+  z-index: 1;
     margin-top: 6rem;
     margin-left: 30rem;
   flex-grow: 1;

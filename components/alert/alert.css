@@ -1,0 +1,31 @@
+.alert {
+  font-size: 1.5rem;
+  width: 50rem;
+  background-color: #d6d3d1;
+  padding: 1.5rem 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.alert i {
+  font-size: 1.75rem;
+}
+
+.alert span{
+  margin-left: 2rem;
+}
+
+.alert-success {
+  background-color: var(--success);
+}
+
+.alert-warning {
+  background-color: var(--warning);
+}
+
+.alert-error {
+  background-color: var(--error);
+}
+
+.alert-info {
+  background-color: var(--info);
+}
