@@ -1,12 +1,18 @@
 /* -----navbar----- */
 
+
+
 nav {
+    z-index: 2;
   display: flex;
+  position: fixed;
+  opacity: 1;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: var(--primary-color);
   font-size: 2.2rem;
-  padding: 2rem;
+  padding: 2rem 3rem;
   font-weight: 500;
 }
 
@@ -36,11 +42,16 @@ nav {
 
 .docs-body {
   display: flex;
+  position: relative;
 }
 
 /* -----sidebar starts here----- */
 
 .side-bar {
+    z-index: 2;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    position: fixed;
   flex-basis: 23rem;
 }
 
@@ -74,8 +85,21 @@ nav {
 /* -----sidebar ends here----- */
 
 .main-content-container {
+    margin-top: 6rem;
+    margin-left: 30rem;
   flex-grow: 1;
+  padding: 2rem 1rem;
   /* background-color: cornflowerblue; */
+}
+
+.display-container{
+  padding: 1rem 10rem;
+}
+
+.display-code {
+  font-size: 1.5rem;
+  width: 80rem;
+  margin-bottom: 2rem;
 }
 
 .landing-pg-main {
@@ -83,6 +107,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 15rem;
 }
 
 .landing-pg-text {

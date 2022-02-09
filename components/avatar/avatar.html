@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b24c8ca7df.js"
+      crossorigin="anonymous"
+    ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+ 
+<script>hljs.initHighlightingOnLoad();</script>    
+    <link href="../../styles/components.css" rel="stylesheet" />
+    <link href="../../styles/styles.css" rel="stylesheet" />
+    <link href="./avatar.css" rel="stylesheet" />
+    <title>Falcon UI</title>
+  </head>
+  <body>
+    <!-- header starts here -->
+    <nav>
+      <label class="nav-brand">Falcon UI</label>
+      <ul class="nav-pills-list">
+        <li class="nav-pills"><a href="#">Docs</a></li>
+        <li class="nav-pills">
+          <a href="https://github.com/nisargpawade"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="nav-pills">
+          <a href="https://twitter.com/NisargPawade"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header ends here -->
+
+    <div class="docs-body">
+      <!-- sidebar starts here -->
+      <div class="side-bar">
+        <ul class="sidebar-list">
+          <li class="sidebar-label"><label>Getting Started</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Documentation</a>
+          </li>
+          <li class="sidebar-label"><label>Components</label></li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Alert</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Avatar</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Badge</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Buttons</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Cards</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Images</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Input</a></li>
+        </ul>
+      </div>
+      <!-- sidebar ends here -->
+
+      <main class="main-content-container">
+        <h1>Avatar</h1>
+        <p>
+          The Avatar component is used to represent a user, and displays the
+          profile picture, initials.
+        </p>
+       
+        <h2>Avatar</h2>
+        <p>
+          Use class <code>avatar-l avatar-m avatar-s</code> for avatars of different sizes or <code>avatar</code> for standard avatar size.
+        </p>
+        <div class="display-container">
+          <img class="avatar-l" src="https://i.pravatar.cc/?img=67" alt="user image"/>
+          <img class="avatar-m" src="https://i.pravatar.cc/?img=67" alt="user image"/>
+          <img class="avatar" src="https://i.pravatar.cc/?img=67" alt="user image"/>
+          <img class="avatar-s" src="https://i.pravatar.cc/?img=67" alt="user image"/>
+        </div>
+        <pre><code class="display-code language-html">
+          &lt;img class="avatar-l" src=".." alt="user image"/&gt;
+          &lt;img class="avatar-m" src=".."  alt="user image"/&gt;
+          &lt;img class="avatar" src=".."  alt="user image"/&gt;
+          &lt;img class="avatar-s" src=".."  alt="user image"/&gt;
+        </code></pre>
+        <h2>Square Avatar</h2>
+        <p>
+          Use class <code>avatar-sq-l avatar-sq-m avatar-sq-s</code> for square avatars of different sizes or <code>avatar-sq</code> for standard avatar size.
+        </p>
+        <div class="display-container">
+          <img class="avatar-sq-l" src="https://i.pravatar.cc/?img=67" alt="user image"/>
+          <img class="avatar-sq-m" src="https://i.pravatar.cc/?img=67" alt="user image"/>
+          <img class="avatar-sq" src="https://i.pravatar.cc/?img=67" alt="user image"/>
+          <img class="avatar-sq-s" src="https://i.pravatar.cc/?img=67" alt="user image"/>
+        </div>
+        <pre><code class="display-code language-html">
+          &lt;img class="avatar-sq-l" src=".." alt="user image"/&gt;
+          &lt;img class="avatar-sq-m" src=".."  alt="user image"/&gt;
+          &lt;img class="avatar-sq" src=".."  alt="user image"/&gt;
+          &lt;img class="avatar-sq-s" src=".."  alt="user image"/&gt;
+        </code></pre>
+        
+        
+      </main>
+    </div>
+  </body>
+</html>
