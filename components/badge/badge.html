@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b24c8ca7df.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <link href="../../styles/components.css" rel="stylesheet" />
+    <link href="../../styles/styles.css" rel="stylesheet" />
+    <title>Falcon UI</title>
+  </head>
+  <body>
+    <!-- header starts here -->
+    <nav>
+      <label class="nav-brand">Falcon UI</label>
+      <ul class="nav-pills-list">
+        <li class="nav-pills"><a href="#">Docs</a></li>
+        <li class="nav-pills">
+          <a href="https://github.com/nisargpawade"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="nav-pills">
+          <a href="https://twitter.com/NisargPawade"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header ends here -->
+
+    <div class="docs-body">
+      <!-- sidebar starts here -->
+      <div class="side-bar">
+        <ul class="sidebar-list">
+          <li class="sidebar-label"><label>Getting Started</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Documentation</a>
+          </li>
+          <li class="sidebar-label"><label>Components</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../alert/alert.html">Alert</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="./badge.html">Badge</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Buttons</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Cards</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Images</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Input</a></li>
+        </ul>
+      </div>
+      <!-- sidebar ends here -->
+
+      <main class="main-content-container">
+        <h1>Badge</h1>
+        <p>
+          The Avatar component is used to represent a user, and displays the
+          profile picture, initials.
+        </p>
+
+        <h2>Badge on Icon</h2>
+        <p>
+          Use class <code>badge</code> for badges or add class
+          <code>badge-l</code> for larger badge.
+        </p>
+        <div class="display-container">
+          <div class="badge">
+            <i class="fas fa-bell"></i>
+            <p>4</p>
+          </div>
+          <div class="badge badge-l">
+            <i class="fas fa-home"></i>
+            <p>8</p>
+          </div>
+        </div>
+        <pre><code class="display-code language-html">
+          &lt;div class="badge"&gt;&lt;i class="fas fa-bell"&gt;&lt;/i&gt;&lt;p&gt;4&lt;/p&gt;&lt;/div&gt;
+          &lt;div class="badge badge-l"&gt;&lt;i class="fas fa-home"&gt;&lt;/i&gt;&lt;p&gt;8&lt;/p&gt;&lt;/div&gt;
+        </code></pre>
+
+        <h2>Badge on Avatar</h2>
+        <p>
+          Use class <code>avatar-l-badge avatar-m-badge avatar-badge avatar-s-badge</code>
+          with <code>badge</code> class and <code>avatar-badge-on avatar-badge-off</code> to show status.
+        </p>
+        <p>
+            Remember to add <code>&lt;p&gt;&lt;/p&gt;</code> tag for the badge.
+        </p>
+        <div class="display-container">
+          <div class="badge avatar-l-badge avatar-badge-on">
+            <img
+              class="avatar avatar-l"
+              src="https://i.pravatar.cc/?img=67"
+              alt="user image"
+            />
+            <p></p>
+          </div>
+          <div class="badge avatar-m-badge avatar-badge-off">
+            <img
+              class="avatar avatar-m"
+              src="https://i.pravatar.cc/?img=67"
+              alt="user image"
+            />
+            <p></p>
+          </div>
+          <div class="badge avatar-badge avatar-badge-on">
+            <img
+              class="avatar"
+              src="https://i.pravatar.cc/?img=67"
+              alt="user image"
+            />
+            <p></p>
+          </div>
+          <div class="badge avatar-s-badge avatar-badge-off">
+            <img
+              class="avatar avatar-s"
+              src="https://i.pravatar.cc/?img=67"
+              alt="user image"
+            />
+            <p></p>
+          </div>
+        </div>
+        <pre><code class="display-code language-html">
+&lt;div class="badge avatar-l-badge avatar-badge-on"&gt;&lt;img class="avatar avatar-l" src="..." alt=".."/&gt;&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="badge avatar-m-badge avatar-badge-off"&gt;&lt;img class="avatar avatar-m" src="..." alt=".."/&gt;&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="badge avatar-badge avatar-badge-on"&gt;&lt;img class="avatar" src="..." alt=".."/&gt;&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="badge avatar-s-badge avatar-badge-off"&gt;&lt;img class="avatar avatar-s" src="..." alt=".."/&gt;&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+        </code></pre>
+      </main>
+    </div>
+  </body>
+</html>
