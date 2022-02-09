@@ -1,22 +1,25 @@
+.avatar {
+    width: 6rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
 
 .avatar-l{
     width: 10rem;
-    border-radius: 50%;
 }
 
 .avatar-m{
     width: 8rem;
-    border-radius: 50%;
-}
-
-.avatar {
-    width: 6rem;
-    border-radius: 50%;
 }
 
 .avatar-s{
     width: 4rem;
-    border-radius: 50%;
+}
+
+.avatar-sq {
+    width: 6rem;
+    border-radius: 8px;
+    margin: 1rem;
 }
 
 .avatar-sq-l{
@@ -27,11 +30,6 @@
 .avatar-sq-m{
     width: 8rem;
     border-radius: 1rem;
-}
-
-.avatar-sq {
-    width: 6rem;
-    border-radius: 8px;
 }
 
 .avatar-sq-s{
