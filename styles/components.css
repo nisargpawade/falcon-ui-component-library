@@ -2,6 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs2015.min.css");
 @import url("../components/alert/alert.css");
 @import url("../components/avatar/avatar.css");
+@import url("../components/badge/badge.css");
 
 * {
   margin: 0;
