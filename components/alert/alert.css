@@ -1,7 +1,7 @@
 .alert {
   font-size: 1.5rem;
   width: 50rem;
-  background-color: #d6d3d1;
+  background-color: var(--inactive);
   padding: 1.5rem 2rem;
   margin: 1rem;
   border-radius: 5px;
