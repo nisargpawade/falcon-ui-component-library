@@ -1,0 +1,64 @@
+.badge{
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+}
+
+.badge i {
+    font-size: 2rem;
+}
+
+.badge p {
+    position: absolute;
+    background-color: var(--primary-color);
+    top: -1.85rem;
+    right: -0.5rem;
+    padding: 2px;
+    border-radius: 1rem;
+}
+
+.badge-l i {
+    font-size: 3rem;
+}
+
+.badge-l p {
+    font-size: 2rem;
+    padding: 4px;
+}
+
+/* -----badge on avatar----- */
+
+.avatar-l-badge p {
+    padding: 1.75rem;
+    right: 1rem;
+    top: 7.25rem;
+    border-radius: 50%;
+}
+
+.avatar-m-badge p {
+    padding: 1.5rem;
+    right: 0.75rem;
+    top: 6rem;
+    border-radius: 50%;
+}
+
+.avatar-badge p {
+    padding: 1rem;
+    right: 0.6rem;
+    top: 4.5rem;
+}
+
+.avatar-s-badge p {
+    padding: 7px;
+    top: 3.1rem;
+    right: 0.6rem;
+}
+
+/* ------badge showing status----- */
+.avatar-badge-on p {
+    background-color: var(--success);
+}
+
+.avatar-badge-off p {
+    background-color: var(--error);
+}

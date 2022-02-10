@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs2015.min.css");
+@import url("../components/alert/alert.css");
+@import url("../components/avatar/avatar.css");
+@import url("../components/badge/badge.css");
 
 * {
   margin: 0;
@@ -13,14 +16,19 @@
 
   --primary-color: #67e8f9;
   --black-color: #1c1917;
+  --inactive: #d6d3d1;
+  --success: #86efac;
+  --warning: #fcd34d;
+  --error: #f87171;
+  --info: #7dd3fc;
 }
 
-h1{
+h1 {
   font-size: 3.2rem;
   margin: 10px 0 4px 0;
 }
 
-h2{
+h2 {
   font-size: 2.5rem;
   margin: 6px 0;
 }

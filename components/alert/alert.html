@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b24c8ca7df.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <link href="../../styles/components.css" rel="stylesheet" />
+    <link href="../../styles/styles.css" rel="stylesheet" />
+    <title>Falcon UI</title>
+  </head>
+  <body>
+    <!-- header starts here -->
+    <nav>
+      <label class="nav-brand">Falcon UI</label>
+      <ul class="nav-pills-list">
+        <li class="nav-pills"><a href="#">Docs</a></li>
+        <li class="nav-pills">
+          <a href="https://github.com/nisargpawade"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="nav-pills">
+          <a href="https://twitter.com/NisargPawade"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header ends here -->
+
+    <div class="docs-body">
+      <!-- sidebar starts here -->
+      <div class="side-bar">
+        <ul class="sidebar-list">
+          <li class="sidebar-label"><label>Getting Started</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Documentation</a>
+          </li>
+          <li class="sidebar-label"><label>Components</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="./alert.html">Alert</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../badge/badge.html">Badge</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Buttons</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Cards</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Images</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Input</a></li>
+        </ul>
+      </div>
+      <!-- sidebar ends here -->
+
+      <main class="main-content-container">
+        <h1>Alert</h1>
+        <p>
+          Provide contextual feedback messages for typical user actions with the
+          handful of available and flexible alert messages.
+        </p>
+
+        <h2>Simple Alert</h2>
+        <p>
+          Use class
+          <code>alert-success alert-warning alert-error alert-info</code> for
+          alerts of different purpose or <code>alert</code> for standard alert.
+        </p>
+        <div class="display-container">
+          <div class="alert">
+            <span>This is an alert</span>
+          </div>
+          <div class="alert alert-success">
+            <i class="fas fa-check-circle"></i
+            ><span>This is a success alert</span>
+          </div>
+          <div class="alert alert-warning">
+            <i class="fas fa-exclamation-circle"></i
+            ><span>This is a warning alert</span>
+          </div>
+          <div class="alert alert-error">
+            <i class="fas fa-exclamation-triangle"></i
+            ><span>This is an error alert</span>
+          </div>
+          <div class="alert alert-info">
+            <i class="fas fa-info-circle"></i><span>This is an info alert</span>
+          </div>
+        </div>
+        <pre><code class="display-code language-html">
+          &lt;div class="alert"&gt;
+            &lt;span&gt;This is an alert&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class="alert alert-success"&gt;
+            &lt;i class="fas fa-check-circle"&gt;&lt;/i&gt;&lt;span&gt;This is a success alert&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class="alert alert-warning"&gt;
+            &lt;i class="fas fa-exclamation-circle"&gt;&lt;/i&gt;&lt;span&gt;This is a warning alert&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class="alert alert-error"&gt;
+            &lt;i class="fas fa-exclamation-triangle"&gt;&lt;/i&gt;&lt;span&gt;This is an error alert&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class="alert alert-info"&gt;
+            &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;&lt;span&gt;This is an info alert&lt;/span&gt;
+          &lt;/div&gt;
+        </code></pre>
+      </main>
+    </div>
+  </body>
+</html>
