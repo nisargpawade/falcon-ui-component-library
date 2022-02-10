@@ -1,0 +1,89 @@
+.btn{
+    padding: 0.65rem 1rem;
+    width: 13rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+.btn:hover {
+    background-color: var(--primary-dark);
+}
+/* -----solid buttons------ */
+.btn-success {
+    background-color: var(--success);
+}
+.btn-success:hover {
+    background-color: var(--success-dark);
+}
+
+.btn-warning {
+    background-color: var(--warning);
+}
+.btn-warning:hover {
+    background-color: var(--warning-dark);
+}
+
+.btn-error {
+    background-color: var(--error);
+}
+.btn-error:hover {
+    background-color: var(--error-dark);
+}
+
+.btn-info {
+    background-color: var(--info);
+}
+.btn-info:hover {
+    background-color: var(--info-dark);
+}
+
+.btn-disable {
+    background-color: var(--inactive);
+}
+.btn-disable:hover {
+    background-color: var(--inactive);
+}
+
+/* -----outline buttons------ */
+.btn-ol {
+    background-color: var(--inactive-light);
+    border: solid 1.5px var(--primary-dark);
+}
+.btn-ol:hover {
+    background-color: var(--inactive);
+}
+
+.btn-success-ol {
+    background-color: var(--inactive-light);
+    border: solid 1.5px var(--success-dark);
+}
+.btn-success-ol:hover {
+    background-color: var(--inactive);
+}
+
+.btn-warning-ol {
+    background-color: var(--inactive-light);
+    border: solid 1.5px var(--warning-dark);
+}
+.btn-warning-ol:hover {
+    background-color: var(--inactive);
+}
+
+.btn-error-ol {
+    background-color: var(--inactive-light);
+    border: solid 1.5px var(--error-dark);
+}
+.btn-error-ol:hover {
+    background-color: var(--inactive);
+}
+
+.btn-info-ol {
+    background-color: var(--inactive-light);
+    border: solid 1.5px var(--info-dark);
+}
+.btn-info-ol:hover {
+    background-color: var(--inactive);
+}
