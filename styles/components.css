@@ -3,6 +3,7 @@
 @import url("../components/alert/alert.css");
 @import url("../components/avatar/avatar.css");
 @import url("../components/badge/badge.css");
+@import url("../components/button/button.css");
 
 * {
   margin: 0;
@@ -15,12 +16,18 @@
   font-size: 62.5%;
 
   --primary-color: #67e8f9;
+  --primary-dark: #22d3ee;
   --black-color: #1c1917;
   --inactive: #d6d3d1;
+  --inactive-light: #e7e5e4;
   --success: #86efac;
+  --success-dark: #4ade80;
   --warning: #fcd34d;
+  --warning-dark: #fbbf24;
   --error: #f87171;
+  --error-dark: #ef4444;
   --info: #7dd3fc;
+  --info-dark: #38bdf8;
 }
 
 h1 {

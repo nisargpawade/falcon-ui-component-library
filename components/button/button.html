@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b24c8ca7df.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <link href="../../styles/components.css" rel="stylesheet" />
+    <link href="../../styles/styles.css" rel="stylesheet" />
+    <title>Falcon UI</title>
+  </head>
+  <body>
+    <!-- header starts here -->
+    <nav>
+      <label class="nav-brand">Falcon UI</label>
+      <ul class="nav-pills-list">
+        <li class="nav-pills"><a href="#">Docs</a></li>
+        <li class="nav-pills">
+          <a href="https://github.com/nisargpawade"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="nav-pills">
+          <a href="https://twitter.com/NisargPawade"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header ends here -->
+
+    <div class="docs-body">
+      <!-- sidebar starts here -->
+      <div class="side-bar">
+        <ul class="sidebar-list">
+          <li class="sidebar-label"><label>Getting Started</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Documentation</a>
+          </li>
+          <li class="sidebar-label"><label>Components</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../alert/alert.html">Alert</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../badge/badge.html">Badge</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="./button.html">Buttons</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Cards</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Images</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Input</a></li>
+        </ul>
+      </div>
+      <!-- sidebar ends here -->
+
+      <main class="main-content-container">
+        <h1>Button</h1>
+        <p>
+            Buttons allow users to take various actions. 
+        </p>
+
+        <h2>Simple Button</h2>
+        <p>
+          Use class <code>btn</code> for simple button or add class
+          <code>btn-success btn-warning btn-error btn-info</code> for different colors.
+        </p>
+        <div class="display-container">
+          <button class="btn">Primary</button>
+          <button class="btn btn-success">Success</button>
+          <button class="btn btn-warning">Warning</button>
+          <button class="btn btn-error">Error</button>
+          <button class="btn btn-info">Info</button>
+          <button class="btn btn-disable" disabled="disabled">Disabled</button>
+        </div>
+        <pre><code class="display-code language-html">
+            &lt;button class="btn"&gt;Simple Button&lt;/button&gt;
+            &lt;button class="btn btn-success"&gt;Simple Button 2&lt;/button&gt;
+            &lt;button class="btn btn-warning"&gt;Simple Button 4&lt;/button&gt;
+            &lt;button class="btn btn-error"&gt;Simple Button 5&lt;/button&gt;
+            &lt;button class="btn btn-info"&gt;Simple Button 6&lt;/button&gt;
+            &lt;button class="btn btn-disable" disabled="disabled"&gt;Disabled Button&lt;/button&gt;
+        </code></pre>
+
+        <h2>Outline Button</h2>
+        <p>
+          Add class <code>btn-ol</code> for outline button or add class
+          <code>btn-success-ol btn-warning-ol btn-error-ol btn-info-ol</code> for different colors.
+        </p>
+        <div class="display-container">
+          <button class="btn btn-ol">Primary</button>
+          <button class="btn btn-success-ol">Success</button>
+          <button class="btn btn-warning-ol">Warning</button>
+          <button class="btn btn-error-ol">Error</button>
+          <button class="btn btn-info-ol">Info</button>
+        </div>
+        <pre><code class="display-code language-html">
+            &lt;button class="btn btn-ol"&gt;Primary&lt;/button&gt;
+            &lt;button class="btn btn-success-ol"&gt;Success&lt;/button&gt;
+            &lt;button class="btn btn-warning-ol"&gt;Warning&lt;/button&gt;
+            &lt;button class="btn btn-error-ol"&gt;Error&lt;/button&gt;
+            &lt;button class="btn btn-info-ol"&gt;Info&lt;/button&gt;
+        </code></pre>
+
+        <h2>Link Button</h2>
+        <p>
+          Add class <code>btn btn-link</code> to make links into buttons and can be used with <code>btn-success btn-warning btn-error btn-info</code> for different colors.
+        </p>
+        <div class="display-container">
+            <a class="btn btn-link" href="#">Link Button</a>
+            <a class="btn btn-link btn-success" href="#">Link Button</a>
+            <a class="btn btn-link btn-warning" href="#">Link Button</a>
+            <a class="btn btn-link btn-error" href="#">Link Button</a>
+        </div>
+        <pre><code class="display-code language-html">
+            &lt;a class="btn btn-link" href="#"&gt;Link Button&lt;/a&gt;
+            &lt;a class="btn btn-link btn-success" href="#"&gt;Link Button&lt;/a&gt;
+            &lt;a class="btn btn-link btn-warning" href="#"&gt;Link Button&lt;/a&gt;
+            &lt;a class="btn btn-link btn-error" href="#"&gt;Link Button&lt;/a&gt;
+        </code></pre>
+
+        <h2>Icon Button</h2>
+        <p>
+            Use simple button classes and simply add icon <code>&lt;i&gt;&lt;/i&gt;</code> in the buttons.
+          </p>
+          <div class="display-container">
+            <button class="btn"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+            <button class="btn btn-success"><i class="fas fa-save"></i>Save</button>
+            <button class="btn btn-warning"><i class="fas fa-cog"></i>Settings</button>
+            <button class="btn btn-error"><i class="fas fa-trash"></i>Delete</button>
+          </div>
+          <pre><code class="display-code language-html">
+        &lt;button class="btn"&gt;&lt;i class="fas fa-shopping-cart"&gt;&lt;/i&gt;Add to cart&lt;/button&gt;
+        &lt;button class="btn btn-success"&gt;&lt;i class="fas fa-save"&gt;&lt;/i&gt;Save&lt;/button&gt;
+        &lt;button class="btn btn-warning"&gt;&lt;i class="fas fa-cog"&gt;&lt;/i&gt;Settings&lt;/button&gt;
+        &lt;button class="btn btn-error"&gt;&lt;i class="fas fa-trash"&gt;&lt;/i&gt;Delete&lt;/button&gt;
+          </code></pre>
+
+          <h2>Floating Action Button</h2>
+          <p>
+              Use class <code>btn-fab</code> in <code>&lt;i&gt;&lt;/i&gt;</code>
+            </p>
+            <div class="display-container">
+              <i class="fas fa-plus btn-fab"></i>
+              <i class="fas fa-pen btn-fab"></i>
+            </div>
+            <pre><code class="display-code language-html">
+                &lt;i class="fas fa-plus btn-fab"&gt;&lt;/i&gt;
+                &lt;i class="fas fa-pen btn-fab"&gt;&lt;/i&gt;
+            </code></pre>
+
+      </main>
+    </div>
+  </body>
+</html>
