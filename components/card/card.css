@@ -1,0 +1,90 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    max-height: 50rem;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: var(--inactive-light);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-img-container {
+    position: relative;
+}
+
+.card-img-container .btn-fab {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.card-badge {
+    position: absolute;
+    top: 2rem;
+    padding: 0 1rem;
+    border-radius: 0 3px 3px 0;
+    background-color: var(--primary-color);
+}
+
+.card-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    color: var(--primary-dark);
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.card .btn {
+    min-width: 12rem;
+    margin: 0.5rem;
+}
+
+/* -------text-overlay------- */
+
+.card-text-overlay {
+    position: absolute;
+    width: 100%;
+    padding-left: 1rem;
+    bottom: 0;
+    color: var(--white);
+    background-color: var(--translucent);
+}
+
+/* ----horizontal card----- */
+
+.card-main .btn-fab {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.horizontal-card {
+    flex-direction: row;
+    height: 20rem;
+    width: 45rem;
+}
+
+.horizontal-card .card-img {
+    height: 100%;
+}
