@@ -61,61 +61,69 @@
           <li class="sidebar-li">
             <a class="sidebar-link" href="../image/image.html">Images</a>
           </li>
-          <li class="sidebar-li"><a class="sidebar-link" href="../input/input.html">Input</a></li>
+          <li class="sidebar-li"><a class="sidebar-link" href="./input.html">Input</a></li>
         </ul>
       </div>
       <!-- sidebar ends here -->
 
       <main class="main-content-container">
-        <h1>Alert</h1>
+        <h1>Input</h1>
+        <p>Text fields allow user input.</p>
+
+        <h2>Textbox</h2>
         <p>
-          Provide contextual feedback messages for typical user actions with the
-          handful of available and flexible alert messages.
+          Use class <code>input-simple</code> for simple textbox to input your data.
         </p>
 
-        <h2>Simple Alert</h2>
-        <p>
-          Use class
-          <code>alert-success alert-warning alert-error alert-info</code> for
-          alerts of different purpose or <code>alert</code> for standard alert.
-        </p>
         <div class="display-container">
-          <div class="alert">
-            <span>This is an alert</span>
-          </div>
-          <div class="alert alert-success">
-            <i class="fas fa-check-circle"></i
-            ><span>This is a success alert</span>
-          </div>
-          <div class="alert alert-warning">
-            <i class="fas fa-exclamation-circle"></i
-            ><span>This is a warning alert</span>
-          </div>
-          <div class="alert alert-error">
-            <i class="fas fa-exclamation-triangle"></i
-            ><span>This is an error alert</span>
-          </div>
-          <div class="alert alert-info">
-            <i class="fas fa-info-circle"></i><span>This is an info alert</span>
-          </div>
+            <input class="input-simple" placeholder="Input Area"></input>
         </div>
-        <pre><code class="display-code language-html">
-          &lt;div class="alert"&gt;
-            &lt;span&gt;This is an alert&lt;/span&gt;
-          &lt;/div&gt;
-          &lt;div class="alert alert-success"&gt;
-            &lt;i class="fas fa-check-circle"&gt;&lt;/i&gt;&lt;span&gt;This is a success alert&lt;/span&gt;
-          &lt;/div&gt;
-          &lt;div class="alert alert-warning"&gt;
-            &lt;i class="fas fa-exclamation-circle"&gt;&lt;/i&gt;&lt;span&gt;This is a warning alert&lt;/span&gt;
-          &lt;/div&gt;
-          &lt;div class="alert alert-error"&gt;
-            &lt;i class="fas fa-exclamation-triangle"&gt;&lt;/i&gt;&lt;span&gt;This is an error alert&lt;/span&gt;
-          &lt;/div&gt;
-          &lt;div class="alert alert-info"&gt;
-            &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;&lt;span&gt;This is an info alert&lt;/span&gt;
-          &lt;/div&gt;
-        </code></pre>
+
+          <pre><code class="display-code language-html">
+            &lt;input class="input-simple" placeholder="Input Area"&gt;&lt;/input&gt;
+          </code></pre>
+
+        <h2>Error success inputs</h2>
+        <p>
+          Add class <code>input-success input-warning input-error</code> along with <code>input-info-success input-info-warning input-info-error</code> for below output.
+        </p>
+
+        <div class="display-container">
+            <div class="margin-b-1">
+                <p>Email</p>
+                <input class="input-simple input-success" placeholder="Please enter your email"></input>
+                <p class="p-small input-info-success">email is correct</p>
+            </div>
+            <div class="margin-b-1">
+                <p>Phone No.</p>
+                <input class="input-simple input-warning" placeholder="Please enter your phone no"></input>
+                <p class="p-small input-info-warning">phone no. must have 10 characters</p>
+            </div>
+            <div class="margin-b-1">
+                <p>Password</p>
+                <input class="input-simple input-error" placeholder="Please enter your password"></input>
+                <p class="p-small input-info-error">password is wrong</p>
+            </div>
+        </div>
+
+          <pre><code class="display-code language-html">
+            &lt;div class="margin-b-1">
+                &lt;p>Email&lt;/p>
+                &lt;input class="input-simple input-success" placeholder="...">&lt;/input>
+                &lt;p class="p-small input-info-success">email is correct&lt;/p>
+            &lt;/div>
+            &lt;div class="margin-b-1">
+                &lt;p>Phone No.&lt;/p>
+                &lt;input class="input-simple input-warning" placeholder="...">&lt;/input>
+                &lt;p class="p-small input-info-warning">phone no. must have 10 characters&lt;/p>
+            &lt;/div>
+            &lt;div class="margin-b-1">
+                &lt;p>Password&lt;/p>
+                &lt;input class="input-simple input-error" placeholder="...">&lt;/input>
+                &lt;p class="p-small input-info-error">password is wrong&lt;/p>
+            &lt;/div>
+          </code></pre>
+          
       </main>
     </div>
   </body>
