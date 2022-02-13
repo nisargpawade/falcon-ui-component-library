@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b24c8ca7df.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <link href="../../styles/components.css" rel="stylesheet" />
+    <link href="../../styles/styles.css" rel="stylesheet" />
+    <title>Falcon UI</title>
+  </head>
+  <body>
+    <!-- header starts here -->
+    <nav>
+      <label class="nav-brand">Falcon UI</label>
+      <ul class="nav-pills-list">
+        <li class="nav-pills"><a href="#">Docs</a></li>
+        <li class="nav-pills">
+          <a href="https://github.com/nisargpawade"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="nav-pills">
+          <a href="https://twitter.com/NisargPawade"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header ends here -->
+
+    <div class="docs-body">
+      <!-- sidebar starts here -->
+      <div class="side-bar">
+        <ul class="sidebar-list">
+          <li class="sidebar-label"><label>Getting Started</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Documentation</a>
+          </li>
+          <li class="sidebar-label"><label>Components</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../alert/alert.html">Alert</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../badge/badge.html">Badge</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../button/button.html">Buttons</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="./card.html">Cards</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="#">Images</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="#">Input</a></li>
+        </ul>
+      </div>
+      <!-- sidebar ends here -->
+
+      <main class="main-content-container">
+        <h1>Card</h1>
+        <p>
+          Cards are a convenient means of displaying content composed of
+          different types of objects.
+        </p>
+
+        <h2>Simple Card</h2>
+        <p>
+          Use class <code>card card-img-container card-img card-main card-text card-btns</code> to get the above result.
+        </p>
+        <div class="display-container">
+          <div class="card margin-1">
+            <div class="card-img-container">
+              <img
+                class="card-img"
+                src="../../assets/product-img.jpg"
+                alt="product img"
+              />
+            </div>
+            <div class="card-main padding-1">
+              <div class="card-text margin-l-1">
+                <p><b>Product Name</b></p>
+                <small>Company Name</small>
+                <p class="p-small">Product description and other text</p>
+              </div>
+              <div class="card-btns">
+                <button class="btn">Buy</button>
+                <button class="btn btn-ol">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <pre><code class="display-code language-html">
+                &lt;div class="card margin-1"&gt;
+                  &lt;div class="card-img-container"&gt;
+                    &lt;img class="card-img" src="..." alt="product img"/&gt;
+                  &lt;/div&gt;
+                  &lt;div class="card-main padding-1"&gt;
+                    &lt;div class="card-text margin-l-1"&gt;
+                      &lt;p&gt;&lt;b&gt;Product Name&lt;/b&gt;&lt;/p&gt;
+                      &lt;small&gt;Company Name&lt;/small&gt;
+                      &lt;p class="p-small"&gt;Product description and other text&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="card-btns"&gt;
+                      &lt;button class="btn"&gt;Buy&lt;/button&gt;
+                      &lt;button class="btn btn-ol"&gt;Add to cart&lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        </code></pre>
+
+        <h2>Card with Badge</h2>
+        <p>
+          Use class <code>card-badge</code> to add badge to the card.
+        </p>
+        <div class="display-container">
+          <div class="card margin-1">
+            <div class="card-img-container">
+              <i class="far fa-heart btn-fab"></i>
+              <p class="p-small card-badge">Bestseller</p>
+              <img
+                class="card-img"
+                src="../../assets/product-img.jpg"
+                alt="product img"
+              />
+            </div>
+            <div class="card-main padding-1">
+              <div class="card-text margin-l-1">
+                <p><b>Product Name</b></p>
+                <small>Company Name</small>
+                <p class="p-small">Product description and other text</p>
+              </div>
+              <div class="card-btns">
+                <button class="btn">Buy</button>
+                <button class="btn btn-ol">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <pre><code class="display-code language-html">
+                &lt;div class="card margin-1"&gt;
+                  &lt;div class="card-img-container"&gt;
+                    &lt;i class="far fa-heart btn-fab"&gt;&lt;/i&gt;
+                    &lt;p class="p-small card-badge"&gt;Bestseller&lt;/p&gt;
+                    &lt;img class="card-img" src="..." alt="product img"/&gt;
+                  &lt;/div&gt;
+                  &lt;div class="card-main padding-1"&gt;
+                    // similar to standard card
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        </code></pre>
+
+        <h2>Card with Dismiss</h2>
+        <p>
+            Use class <code>card-close</code> along with icon to add close to the card.
+        </p>
+        <div class="display-container">
+          <div class="card margin-1">
+            <div class="card-img-container">
+              <i class="far fa-times-circle card-close"></i>
+              <i class="far fa-heart btn-fab"></i>
+              <p class="p-small card-badge">Bestseller</p>
+              <img
+                class="card-img"
+                src="../../assets/product-img.jpg"
+                alt="product img"
+              />
+            </div>
+            <div class="card-main padding-1">
+              <div class="card-text margin-l-1">
+                <p><b>Product Name</b></p>
+                <small>Company Name</small>
+                <p class="p-small">Product description and other text</p>
+              </div>
+              <div class="card-btns">
+                <button class="btn">Buy</button>
+                <button class="btn btn-ol">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <pre><code class="display-code language-html">
+                &lt;div class="card margin-1"&gt;
+                  &lt;div class="card-img-container"&gt;
+                  &lt;i class="far fa-times-circle card-close"&gt;&lt;/i&gt;
+                    &lt;i class="far fa-heart btn-fab"&gt;&lt;/i&gt;
+                    &lt;p class="p-small card-badge"&gt;Bestseller&lt;/p&gt;
+                    &lt;img class="card-img" src="..." alt="product img"/&gt;
+                  &lt;/div&gt;
+                  &lt;div class="card-main padding-1"&gt;
+                    // similar to standard card
+                  &lt;/div&gt;
+                &lt;/div&gt;
+        </code></pre>
+
+        <h2>Card with text overlay</h2>
+        <p>
+          Shift the <code>card-text</code> div in the <code>card-img-container</code> and replace the class with <code>card-text-overlay</code>.
+        </p>
+        <div class="display-container">
+          <div class="card margin-1">
+            <div class="card-img-container">
+              <i class="far fa-times-circle card-close"></i>
+              <p class="p-small card-badge">Bestseller</p>
+              <img
+                class="card-img"
+                src="../../assets/product-img.jpg"
+                alt="product img"
+              />
+              <div class="card-text-overlay">
+                <p><b>Product Name</b></p>
+                <small>Company Name</small>
+                <p class="p-small">Product description and other text</p>
+              </div>
+            </div>
+            <div class="card-main padding-1">
+              <div class="card-btns">
+                <button class="btn">Buy</button>
+                <button class="btn btn-ol">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <pre><code class="display-code language-html">
+            &lt;div class="card margin-1"&gt;
+              &lt;div class="card-img-container"&gt;
+                &lt;i class="far fa-times-circle card-close"&gt;&lt;/i&gt;
+                &lt;p class="p-small card-badge"&gt;Bestseller&lt;/p&gt;
+                &lt;img class="card-img" src="..." alt="product img"/&gt;
+                &lt;div class="card-text-overlay"&gt;
+                    &lt;p&gt;&lt;b&gt;Product Name&lt;/b&gt;&lt;/p&gt;
+                    &lt;small&gt;Company Name&lt;/small&gt;
+                    &lt;p class="p-small"&gt;Product description and other text&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="card-main padding-1"&gt;
+                &lt;div class="card-btns"&gt;
+                    &lt;button class="btn"&gt;Buy&lt;/button&gt;
+                    &lt;button class="btn btn-ol"&gt;Add to cart&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+        </code></pre>
+
+        <h2>Text only card</h2>
+        <p>
+          Simple card without <code>card-img-container</code>.
+        </p>
+        <div class="display-container">
+          <div class="card margin-1">
+            <div class="card-main padding-1">
+              <div class="card-text margin-l-1">
+                <p><b>Heading</b></p>
+                <small><b>Author</b></small>
+                <p class="p-small">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  consequat massa non consectetur faucibus. Pellentesque viverra
+                  nibh ut dui ullamcorper, sit amet iaculis mauris cursus. In
+                  massa ligula, dignissim non sollicitudin eget, finibus vel
+                  lacus. Maecenas venenatis ligula metus, quis tempor turpis
+                  venenatis eget. Fusce finibus gravida ullamcorper.
+                </p>
+              </div>
+              <div class="card-btns">
+                <button class="btn">Read</button>
+                <button class="btn btn-ol">Bookmark</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <pre><code class="display-code language-html">
+            &lt;div class="card margin-1"&gt;
+                &lt;div class="card-main padding-1"&gt;
+                    &lt;div class="card-text margin-l-1"&gt;
+                        &lt;p&gt;&lt;b&gt;Heading&lt;/b&gt;&lt;/p&gt;
+                        &lt;small&gt;&lt;b&gt;Author&lt;/b&gt;&lt;/small&gt;
+                        &lt;p class="p-small"&gt;...&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="card-btns"&gt;
+                        &lt;button class="btn"&gt;Read&lt;/button&gt;
+                        &lt;button class="btn btn-ol"&gt;Bookmark&lt;/button&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        </code></pre>
+
+        <h2>Horizontal Card</h2>
+        <p>
+          Add class <code>horizontal-card</code> with <code>card</code> class.
+        </p>
+        <div class="display-container">
+
+          <div class="card horizontal-card margin-1">
+            <div class="card-img-container">
+              <p class="p-small card-badge">Bestseller</p>
+              <img
+                class="card-img"
+                src="../../assets/product-img.jpg"
+                alt="product img"
+              />
+            </div>
+            <div class="card-main padding-1">
+              <div class="card-text margin-l-1">
+                <i class="far fa-heart btn-fab"></i>
+                <p><b>Product Name</b></p>
+                <small>Company Name</small>
+                <p class="p-small">Product description and other text</p>
+              </div>
+              <div class="card-btns">
+                <button class="btn">Buy</button>
+                <button class="btn btn-ol">Add to cart</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <pre><code class="display-code language-html">
+            &lt;div class="card horizontal-card margin-1"&gt;
+                &lt;div class="card-img-container"&gt;
+                  &lt;p class="p-small card-badge"&gt;Bestseller&lt;/p&gt;
+                  &lt;img class="card-img" src="..." alt="product img"/&gt;
+                &lt;/div&gt;
+                &lt;div class="card-main padding-1"&gt;
+                  &lt;div class="card-text margin-l-1"&gt;
+                    &lt;i class="far fa-heart btn-fab"&gt;&lt;/i&gt;
+                    &lt;p&gt;&lt;b&gt;Product Name&lt;/b&gt;&lt;/p&gt;
+                    &lt;small&gt;Company Name&lt;/small&gt;
+                    &lt;p class="p-small"&gt;Product description and other text&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class="card-btns"&gt;
+                    &lt;button class="btn"&gt;Buy&lt;/button&gt;
+                    &lt;button class="btn btn-ol"&gt;Add to cart&lt;/button&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+        </code></pre>
+      </main>
+    </div>
+  </body>
+</html>
