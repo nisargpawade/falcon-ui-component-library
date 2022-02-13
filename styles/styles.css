@@ -97,6 +97,10 @@ nav {
   padding: 1rem 10rem;
 }
 
+.img-page-container {
+  width: 60rem;
+}
+
 .display-code {
   font-size: 1.5rem;
   width: 80rem;

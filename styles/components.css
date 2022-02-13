@@ -28,10 +28,13 @@
   --inactive-light: #e7e5e4;
   --success: #86efac;
   --success-dark: #4ade80;
+  --success-darker: #16a34a;
   --warning: #fcd34d;
   --warning-dark: #fbbf24;
+  --warning-darker: #d97706;
   --error: #f87171;
   --error-dark: #ef4444;
+  --error-darker: #b91c1c;
   --info: #7dd3fc;
   --info-dark: #38bdf8;
 }

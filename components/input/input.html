@@ -67,7 +67,65 @@
       <!-- sidebar ends here -->
 
       <main class="main-content-container">
-        
+        <h1>Input</h1>
+        <p>Text fields allow user input.</p>
+
+        <h2>Textbox</h2>
+        <p>
+          Use class <code>alert-success alert-warning alert-error alert-info</code> for
+          alerts of different purpose or <code>alert</code> for standard alert.
+        </p>
+
+        <div class="display-container">
+            <input class="input-simple" placeholder="Input Area"></input>
+        </div>
+
+          <pre><code class="display-code language-html">
+            &lt;input class="input-simple" placeholder="Input Area"&gt;&lt;/input&gt;
+          </code></pre>
+
+        <h2>Error success inputs</h2>
+        <p>
+          Use class <code>alert-success alert-warning alert-error alert-info</code> for
+          alerts of different purpose or <code>alert</code> for standard alert.
+        </p>
+
+        <div class="display-container">
+            <div class="margin-b-1">
+                <p>Email</p>
+                <input class="input-simple input-success" placeholder="Please enter your email"></input>
+                <p class="p-small input-info-success">email is correct</p>
+            </div>
+            <div class="margin-b-1">
+                <p>Phone No.</p>
+                <input class="input-simple input-warning" placeholder="Please enter your phone no"></input>
+                <p class="p-small input-info-warning">phone no. must have 10 characters</p>
+            </div>
+            <div class="margin-b-1">
+                <p>Password</p>
+                <input class="input-simple input-error" placeholder="Please enter your password"></input>
+                <p class="p-small input-info-error">password is wrong</p>
+            </div>
+        </div>
+
+          <pre><code class="display-code language-html">
+            &lt;div class="margin-b-1">
+                &lt;p>Email&lt;/p>
+                &lt;input class="input-simple input-success" placeholder="...">&lt;/input>
+                &lt;p class="p-small input-info-success">email is correct&lt;/p>
+            &lt;/div>
+            &lt;div class="margin-b-1">
+                &lt;p>Phone No.&lt;/p>
+                &lt;input class="input-simple input-warning" placeholder="...">&lt;/input>
+                &lt;p class="p-small input-info-warning">phone no. must have 10 characters&lt;/p>
+            &lt;/div>
+            &lt;div class="margin-b-1">
+                &lt;p>Password&lt;/p>
+                &lt;input class="input-simple input-error" placeholder="...">&lt;/input>
+                &lt;p class="p-small input-info-error">password is wrong&lt;/p>
+            &lt;/div>
+          </code></pre>
+          
       </main>
     </div>
   </body>

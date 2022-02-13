@@ -1,0 +1,28 @@
+.input-simple {
+    padding: 0.5rem 1rem;
+    border: 1.5px solid;
+    border-radius: 4px;
+    font-size: 1.65rem;
+    min-width: 30rem;
+}
+
+.input-success {
+    color: var(--success-dark);
+}
+.input-info-success {
+    color: var(--success-darker);
+}
+
+.input-warning {
+    color: var(--warning-dark);
+}
+.input-info-warning {
+    color: var(--warning-darker);
+}
+
+.input-error {
+    color: var(--error-dark);
+}
+.input-info-error {
+    color: var(--error-darker);
+}
