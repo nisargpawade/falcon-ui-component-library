@@ -96,6 +96,10 @@ nav {
 .display-container{
   padding: 1rem 10rem;
 }
+.display-container-80-width {
+  width: 80%;
+  padding: 1rem;
+}
 
 .img-page-container {
   width: 60rem;
