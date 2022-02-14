@@ -46,6 +46,7 @@
     padding: 1rem;
     right: 0.6rem;
     top: 4.5rem;
+    border-radius: 50%;
 }
 
 .avatar-s-badge p {
@@ -56,9 +57,11 @@
 
 /* ------badge showing status----- */
 .avatar-badge-on p {
-    background-color: var(--success);
+    border: 3px solid var(--white);
+    background-color: var(--success-dark);
 }
 
 .avatar-badge-off p {
-    background-color: var(--error);
+    border: 3px solid var(--white);
+    background-color: var(--error-dark);
 }
