@@ -19,6 +19,8 @@
 :root {
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
+  color: #292524;
+  background-color: #fff9f2;
 
   --primary-color: #67e8f9;
   --primary-dark: #22d3ee;
@@ -39,34 +41,6 @@
   --error-darker: #b91c1c;
   --info: #7dd3fc;
   --info-dark: #38bdf8;
-}
-
-h1 {
-  font-size: 3.2rem;
-  margin: 10px 0 4px 0;
-}
-
-h2 {
-  font-size: 2.5rem;
-  margin: 6px 0;
-}
-
-h3 {
-  font-size: 2.1rem;
-}
-
-p {
-  font-size: 1.75rem;
-  margin: 4px 0;
-}
-
-small {
-  font-size: 1.2rem;
-}
-
-.p-small {
-  margin: 4px 0px;
-  font-size: 1.4rem;
 }
 
 .margin-1 {
