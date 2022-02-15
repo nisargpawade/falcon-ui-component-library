@@ -7,10 +7,11 @@
 }
 
 .input-success {
-    color: var(--success-dark);
+    color: var(--success-darker);
 }
 .input-info-success {
     color: var(--success-darker);
+    font-weight: 500;
 }
 
 .input-warning {
@@ -18,6 +19,7 @@
 }
 .input-info-warning {
     color: var(--warning-darker);
+    font-weight: 500;
 }
 
 .input-error {
@@ -25,4 +27,5 @@
 }
 .input-info-error {
     color: var(--error-darker);
+    font-weight: 500;
 }

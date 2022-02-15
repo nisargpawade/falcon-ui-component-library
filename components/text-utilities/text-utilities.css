@@ -1,0 +1,67 @@
+h1 {
+    font-size: 3.2rem;
+    margin: 8px 0 5px 0;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin: 5px 0;
+  }
+  
+  h3 {
+    font-size: 2.15rem;
+    margin: 4px 0;
+  }
+  
+  h4 {
+    font-size: 1.85rem;
+    margin: 4px 0;
+  }
+  
+  p {
+    font-size: 1.75rem;
+    margin: 3px 0;
+  }
+  
+  small {
+    font-size: 1.2rem;
+  }
+  
+  .p-sm {
+    margin: 3px 0px;
+    font-size: 1.4rem;
+  }
+  
+  .p-md {
+    font-size: 1.75rem;
+    margin: 3px 0;
+  }
+  
+  .p-lg {
+    margin: 3px 0px;
+    font-size: 2.1rem;
+  }
+  
+  .fw-regular {
+    font-weight: 400;
+  }
+  
+  .fw-semi-bold {
+    font-weight: 500;
+  }
+  
+  .fw-bold {
+    font-weight: 600;
+  }
+
+  .txt-gray {
+    color: var(--inactive-dark);
+  }
+
+  .txt-center {
+    text-align: center;
+  }
+
+  .txt-right {
+    text-align: right;
+  }

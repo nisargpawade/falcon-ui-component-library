@@ -7,6 +7,8 @@
 @import url("../components/card/card.css");
 @import url("../components/image/image.css");
 @import url("../components/input/input.css");
+@import url("../components/list/list.css");
+@import url("../components/text-utilities/text-utilities.css");
 
 * {
   margin: 0;
@@ -17,15 +19,19 @@
 :root {
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
+  color: #292524;
+  background-color: #fff9f2;
 
+  --primary-light: #cffafe;
   --primary-color: #67e8f9;
   --primary-dark: #22d3ee;
   --black-color: #1c1917;
   --white: #f5f5f4;
-  --box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);;
+  --box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
   --translucent: rgba(0, 0, 0, 0.4);
   --inactive: #d6d3d1;
   --inactive-light: #e7e5e4;
+  --inactive-dark: #a8a29e;
   --success: #86efac;
   --success-dark: #4ade80;
   --success-darker: #16a34a;
@@ -37,34 +43,6 @@
   --error-darker: #b91c1c;
   --info: #7dd3fc;
   --info-dark: #38bdf8;
-}
-
-h1 {
-  font-size: 3.2rem;
-  margin: 10px 0 4px 0;
-}
-
-h2 {
-  font-size: 2.5rem;
-  margin: 6px 0;
-}
-
-h3 {
-  font-size: 2.1rem;
-}
-
-p {
-  font-size: 1.75rem;
-  margin: 4px 0;
-}
-
-small {
-  font-size: 1.2rem;
-}
-
-.p-small {
-  margin: 4px 0px;
-  font-size: 1.4rem;
 }
 
 .margin-1 {

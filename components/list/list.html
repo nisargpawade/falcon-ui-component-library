@@ -46,7 +46,7 @@
           </li>
           <li class="sidebar-label"><label>Components</label></li>
           <li class="sidebar-li">
-            <a class="sidebar-link" href="./alert.html">Alert</a>
+            <a class="sidebar-link" href="../alert/alert.html">Alert</a>
           </li>
           <li class="sidebar-li">
             <a class="sidebar-link" href="../avatar/avatar.html">Avatar</a>
@@ -61,71 +61,74 @@
           <li class="sidebar-li">
             <a class="sidebar-link" href="../image/image.html">Images</a>
           </li>
-          <li class="sidebar-li"><a class="sidebar-link" href="./input.html">Input</a></li>
-          <li class="sidebar-li"><a class="sidebar-link" href="../list/list.html">Lists</a></li>
+          <li class="sidebar-li"><a class="sidebar-link" href="../input/input.html">Input</a></li>
+          <li class="sidebar-li"><a class="sidebar-link" href="./list.html">Lists</a></li>
           <li class="sidebar-li"><a class="sidebar-link" href="../text-utilities/text-utilities.html">Text Utilities</a></li>
         </ul>
       </div>
       <!-- sidebar ends here -->
 
       <main class="main-content-container">
-        <h1>Input</h1>
-        <p>Text fields allow user input.</p>
-
-        <h2>Textbox</h2>
-        <p>
-          Use class <code>input-simple</code> for simple textbox to input your data.
-        </p>
-
-        <div class="display-container">
-            <input class="input-simple" placeholder="Input Area"></input>
-        </div>
-
+        
+          <h1>List</h1>
+          <p>Lists are used to show list items.</p>
+  
+          <h2>Simple List</h2>
+          <p>
+            Use class <code>list-container</code> for simple list given below.
+          </p>
+  
+          <div class="display-container">
+              <ul class="list-container p-md">
+                <p class="p-lg fw-semi-bold">List Header</p>
+                <li> Item 1</li>
+                <li> Item 2</li>
+                <li> Item 3</li>
+              </ul>
+          </div>
+  
           <pre><code class="display-code language-html">
-            &lt;input class="input-simple" placeholder="Input Area"&gt;&lt;/input&gt;
+              &lt;ul class="list-container p-md"&gt;
+              &lt;p class="p-lg fw-semi-bold"&gt;List Header&lt;/p&gt;
+                &lt;li&gt; Item 1&lt;/li&gt;
+                &lt;li&gt; Item 2&lt;/li&gt;
+                &lt;li&gt; Item 3&lt;/li&gt;
+              &lt;/ul&gt;
           </code></pre>
 
-        <h2>Error success inputs</h2>
-        <p>
-          Add class <code>input-success input-warning input-error</code> along with <code>input-info-success input-info-warning input-info-error</code> for below output.
-        </p>
-
-        <div class="display-container">
-            <div class="margin-b-1">
-                <p>Email</p>
-                <input class="input-simple input-success" placeholder="Please enter your email"></input>
-                <p class="p-sm input-info-success">email is correct</p>
-            </div>
-            <div class="margin-b-1">
-                <p>Phone No.</p>
-                <input class="input-simple input-warning" placeholder="Please enter your phone no"></input>
-                <p class="p-sm input-info-warning">phone no. must have 10 characters</p>
-            </div>
-            <div class="margin-b-1">
-                <p>Password</p>
-                <input class="input-simple input-error" placeholder="Please enter your password"></input>
-                <p class="p-sm input-info-error">password is wrong</p>
-            </div>
-        </div>
-
+          <h2>Stacked List</h2>
+          <p>
+            Use class <code>list-stacked-container</code> for stacked list.
+          </p>
+  
+          <div class="display-container">
+              <ul class="list-stacked-container p-md">
+                <li><p class="margin-l-1"> I have a notification 1</p>
+                  <p class="p-sm margin-l-1">some description about notification</p>
+                </li>
+                <li><p class="margin-l-1"> I have a notification 2</p>
+                  <p class="p-sm margin-l-1">some description about notification</p>
+                </li>
+                <li><p class="margin-l-1"> I have a notification 3</p>
+                  <p class="p-sm margin-l-1">some description about notification</p>
+                </li>
+              </ul>
+          </div>
+  
           <pre><code class="display-code language-html">
-            &lt;div class="margin-b-1">
-                &lt;p>Email&lt;/p>
-                &lt;input class="input-simple input-success" placeholder="...">&lt;/input>
-                &lt;p class="p-sm input-info-success">email is correct&lt;/p>
-            &lt;/div>
-            &lt;div class="margin-b-1">
-                &lt;p>Phone No.&lt;/p>
-                &lt;input class="input-simple input-warning" placeholder="...">&lt;/input>
-                &lt;p class="p-sm input-info-warning">phone no. must have 10 characters&lt;/p>
-            &lt;/div>
-            &lt;div class="margin-b-1">
-                &lt;p>Password&lt;/p>
-                &lt;input class="input-simple input-error" placeholder="...">&lt;/input>
-                &lt;p class="p-sm input-info-error">password is wrong&lt;/p>
-            &lt;/div>
+            &lt;ul class="list-stacked-container p-md"&gt;
+              &lt;li&gt;&lt;p class="margin-l-1"&gt; I have a notification 1&lt;/p&gt;
+                &lt;p class="p-sm margin-l-1"&gt;some description about notification&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;&lt;p class="margin-l-1"&gt; I have a notification 2&lt;/p&gt;
+                &lt;p class="p-sm margin-l-1"&gt;some description about notification&lt;/p&gt;
+              &lt;/li&gt;
+              &lt;li&gt;&lt;p class="margin-l-1"&gt; I have a notification 3&lt;/p&gt;
+                &lt;p class="p-sm margin-l-1"&gt;some description about notification&lt;/p&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
           </code></pre>
-          
+        
       </main>
     </div>
   </body>

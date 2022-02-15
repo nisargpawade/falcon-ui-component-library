@@ -1,0 +1,39 @@
+.list-container {
+    list-style: none;
+    width: 20rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.list-container p {
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--inactive-light);
+}
+
+.list-container li {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--inactive);
+}
+
+.list-container li:hover {
+    font-weight: 500;
+}
+
+.list-stacked-container {
+    list-style: none;
+    max-width: 60rem;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+
+.list-stacked-container li {
+    padding: 1rem;
+    border-bottom: 1px solid var(--inactive);
+}
+
+.list-stacked-container li:hover {
+    background-color: var(--inactive-light);
+}
