@@ -2,7 +2,7 @@
 
 
 
-nav {
+.navbar-cl {
   z-index: 2;
   display: flex;
   position: fixed;
@@ -16,24 +16,24 @@ nav {
   font-weight: 500;
 }
 
-.nav-brand {
+.nav-brand-cl {
   margin-left: 2rem;
   font-size: 2.5rem;
   font-weight: 600;
   color: var(--black-color);
 }
 
-.nav-pills-list {
+.nav-pills-list-cl {
   list-style: none;
   display: flex;
   margin-right: 2rem;
 }
 
-.nav-pills {
+.nav-pills-cl {
   padding: 0 2rem;
 }
 
-.nav-pills a {
+.nav-pills-cl a {
   color: var(--black-color);
   text-decoration: none;
 }
