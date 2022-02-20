@@ -8,6 +8,7 @@
 @import url("../components/image/image.css");
 @import url("../components/input/input.css");
 @import url("../components/list/list.css");
+@import url("../components/navbar/navbar.css");
 @import url("../components/text-utilities/text-utilities.css");
 
 * {
@@ -28,6 +29,7 @@
   --black-color: #1c1917;
   --white: #f5f5f4;
   --box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+  --box-shadow-hover: 0px 3px 8px rgba(0, 0, 0, 0.3);
   --translucent: rgba(0, 0, 0, 0.4);
   --inactive: #d6d3d1;
   --inactive-light: #e7e5e4;
@@ -43,6 +45,11 @@
   --error-darker: #b91c1c;
   --info: #7dd3fc;
   --info-dark: #38bdf8;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
 }
 
 .margin-1 {
@@ -67,4 +74,24 @@
 
 .padding-1 {
   padding: 1rem;
+}
+
+/* ---- color classes ---- */
+.primary {
+  background-color: var(--primary-color);
+}
+.success {
+  background-color: var(--success);
+}
+
+.warning {
+  background-color: var(--warning);
+}
+
+.error {
+  background-color: var(--error);
+}
+
+.info {
+  background-color: var(--info);
 }

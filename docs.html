@@ -8,22 +8,26 @@
       src="https://kit.fontawesome.com/b24c8ca7df.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <link href="/styles/components.css" rel="stylesheet" />
     <link href="/styles/styles.css" rel="stylesheet" />
     <title>Falcon UI</title>
   </head>
   <body>
     <!-- header starts here -->
-    <nav>
-      <label class="nav-brand">Falcon UI</label>
-      <ul class="nav-pills-list">
-        <li class="nav-pills"><a href="#">Docs</a></li>
-        <li class="nav-pills">
+    <nav class="navbar-cl">
+      <label class="nav-brand-cl">Falcon UI</label>
+      <ul class="nav-pills-list-cl">
+        <li class="nav-pills-cl"><a href="./docs.html">Docs</a></li>
+        <li class="nav-pills-cl">
           <a href="https://github.com/nisargpawade"
             ><i class="fab fa-github"></i
           ></a>
         </li>
-        <li class="nav-pills">
+        <li class="nav-pills-cl">
           <a href="https://twitter.com/NisargPawade"
             ><i class="fab fa-twitter"></i
           ></a>
@@ -38,7 +42,7 @@
         <ul class="sidebar-list">
           <li class="sidebar-label"><label>Getting Started</label></li>
           <li class="sidebar-li">
-            <a class="sidebar-link" href="#">Documentation</a>
+            <a class="sidebar-link" href="docs.html">Installation</a>
           </li>
           <li class="sidebar-label"><label>Components</label></li>
           <li class="sidebar-li"><a class="sidebar-link" href="./components/alert/alert.html">Alert</a></li>
@@ -55,12 +59,37 @@
           </li>
           <li class="sidebar-li"><a class="sidebar-link" href="./components/input/input.html">Input</a></li>
           <li class="sidebar-li"><a class="sidebar-link" href="./components/list/list.html">Lists</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="./components/navbar/navbar.html">Navbar</a>
+          </li>
           <li class="sidebar-li"><a class="sidebar-link" href="./components/text-utilities/text-utilities.html">Text Utilities</a></li>
         </ul>
       </div>
       <!-- sidebar ends here -->
 
-      <main class="main-content-container"></main>
+      <main class="main-content-container">
+        <h1>Installation</h1>
+        <p>There are two ways to import and use <b>Falcon UI</b>.</p>
+
+        <h2>Link in HTML</h2>
+        <p>
+          Copy and paste the below CDN link in the <code>&lt;head&gt;</code> tag of your html, above all other style sheets.
+        </p>
+
+        <pre><code class="display-code language-html">
+      &lt;link rel="stylesheet" href="https://ui-falcon.netlify.app/styles/components.css"/&gt;
+        </code></pre>
+
+        <h2>Import in CSS</h2>
+        <p>
+          Just copy and paste below link in top of your existing css file.
+        </p>
+
+        <pre><code class="display-code language-css">
+        @import url("https://ui-falcon.netlify.app/styles/components.css")
+        </code></pre>
+      </main>
+      
     </div>
   </body>
 </html>
