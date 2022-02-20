@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b24c8ca7df.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <link href="../../styles/components.css" rel="stylesheet" />
+    <link href="../../styles/styles.css" rel="stylesheet" />
+    <title>Falcon UI</title>
+  </head>
+  <body>
+    <!-- header starts here -->
+    <nav class="navbar-cl">
+      <label class="nav-brand-cl">Falcon UI</label>
+      <ul class="nav-pills-list-cl">
+        <li class="nav-pills-cl"><a href="#">Docs</a></li>
+        <li class="nav-pills-cl">
+          <a href="https://github.com/nisargpawade"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="nav-pills-cl">
+          <a href="https://twitter.com/NisargPawade"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header ends here -->
+
+    <div class="docs-body">
+      <!-- sidebar starts here -->
+      <div class="side-bar">
+        <ul class="sidebar-list">
+          <li class="sidebar-label"><label>Getting Started</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../../docs.html">Installation</a>
+          </li>
+          <li class="sidebar-label"><label>Components</label></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../alert/alert.html">Alert</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../badge/badge.html">Badge</a>
+          </li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../button/button.html">Buttons</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="../card/card.html">Cards</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="../image/image.html">Images</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="./input.html">Input</a></li>
+          <li class="sidebar-li"><a class="sidebar-link" href="../list/list.html">Lists</a></li>
+          <li class="sidebar-li">
+            <a class="sidebar-link" href="./navbar.html">Navbar</a>
+          </li>
+          <li class="sidebar-li"><a class="sidebar-link" href="../text-utilities/text-utilities.html">Text Utilities</a></li>
+        </ul>
+      </div>
+      <!-- sidebar ends here -->
+
+      <main class="main-content-container">
+        <h1>Navbar</h1>
+        <p>Navbar is used to navigate between different pages.</p>
+
+        <h2>Desktop Navbar</h2>
+        <p>
+          Use class <code>input-simple</code> for simple textbox to input your data.
+        </p>
+
+        <div class="display-container-navbar-comp">
+            <nav class="navbar">
+                <div class="nav-brand">
+                  <a href="#"><i class="far fa-compass"></i>RoverStore</a>
+                </div>
+                <div class="searchbar">
+                  <i class="fas fa-search p-md padding-1"></i>
+                  <input type="search" placeholder="Search" />
+                </div>
+                <div class="nav-pills">
+                  <button class="btn btn-warning">Login</button>
+                  <div class="badge margin-1">
+                    <i class="fas fa-heart"></i>
+                    <p class="warning">4</p>
+                  </div>
+                  <div class="badge margin-1">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p class="warning">4</p>
+                  </div>
+                </div>
+            </nav>
+        </div>
+
+          <pre><code class="display-code language-html">
+            &lt;nav class="navbar"&gt;
+                &lt;div class="nav-brand"&gt;
+                  &lt;a href="#"&gt;&lt;i class="far fa-compass"&gt;&lt;/i&gt;RoverStore&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class="searchbar"&gt;
+                  &lt;i class="fas fa-search p-md padding-1"&gt;&lt;/i&gt;
+                  &lt;input type="search" placeholder="Search" /&gt;
+                &lt;/div&gt;
+                &lt;div class="nav-pills"&gt;
+                  &lt;button class="btn btn-warning"&gt;Login&lt;/button&gt;
+                  &lt;div class="badge margin-1"&gt;
+                    &lt;i class="fas fa-heart"&gt;&lt;/i&gt;
+                    &lt;p class="warning"&gt;4&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class="badge margin-1"&gt;
+                    &lt;i class="fas fa-shopping-cart"&gt;&lt;/i&gt;
+                    &lt;p class="warning"&gt;4&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/nav&gt;
+          </code></pre>
+          
+      </main>
+    </div>
+  </body>
+</html>

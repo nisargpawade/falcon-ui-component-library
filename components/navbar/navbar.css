@@ -1,0 +1,32 @@
+/* ---- navbar ---- */
+.navbar {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 3rem;
+    background-color: cadetblue;
+  }
+  
+  .nav-brand a {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .searchbar {
+    display: flex;
+    background-color: var(--white);
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .searchbar input {
+    border: none;
+    padding: 1rem;
+    min-width: 28rem;
+    background-color: var(--white);
+  }
