@@ -10,7 +10,6 @@
 
 .badge p {
     position: absolute;
-    /* background-color: var(--primary-color); */
     top: -1.85rem;
     right: -0.5rem;
     padding: 2px;
